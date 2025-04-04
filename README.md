@@ -1,42 +1,37 @@
-# Teste Prático - Estágio de Programação Web
+# 💢 Teste Prático - Estágio de Programação Web: INTEGRALE
 
-## 📋 Descrição do Teste
-Você deve criar uma **página web simples** que contenha:
+## 📋 Descrição do Projeto:
+### Página web simples
 - Um formulário de cadastro com os seguintes campos:
   - **Nome**
   - **E-mail**
   - **Senha**
 - Um botão de submit que exiba os dados preenchidos em um alerta (popup) ao clicar.
+- A página é **responsiva**.
 
-- Exemplo:
+## 📲 Vizualizar o Projeto:
+### Para poder vizualizar o projeto, existe duas formas.
+
+#### 1° Forma - Usar GIT CLONE no repositório:
+```
+git clone https://github.com/BrunoozL/processo-seletivo
+```
+
+#### 2° Forma - Baixar diretamente pelo repositório:
+Entrando dentro do repositório do Projeto, no centro da tela onde estão os aruivos do projeto, um pouco acima  
+no canto superior, clique no botão azul escrito "CODE" e logo em seguida, no botão "DOWNLOAD ZIP".
+
+![](assets/img_print1.png)
+
+![](assets/img_print2.png)
+
+### E dessas 2 formas, você consegue ter o projeto em mãos!
+
+## ✨ Linguagens/Ferramentas utilizadas:
+
+<div style="display: inline_block;">
+  <img align="center" alt="CSS" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> 
+  <img align="center" alt="HTML" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="JavaScript" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+  <img align="center" alt="VS Code" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
   
-![Screenshot 2025-04-01 at 16 24 49](https://github.com/user-attachments/assets/6ba08daa-a5be-459f-abc2-a28a021d3ac8)
-
-
----
-
-## 🚩 Requisitos
-- A página deve ser **responsiva** (funcionar bem em celular e desktop).
-- Os dados do formulário devem ser exibidos em um `alert()`
-
----
-
-## 🔥 Critérios de Avaliação
-
-1. ✅ **Funcionalidade básica funcionando**.
-2. ✅ **Organização do código**.
-3. ✅ **Estilo simples e responsivo.**
-4. ✅ **README.md bem estruturado explicando como visualizar o projeto.**
-
----
-
-## 📌 Instruções para Entrega
-
-1. Faça um **fork** deste repositório no seu GitHub.
-2. Desenvolva a aplicação conforme os requisitos descritos acima.
-3. Certifique-se de que seu código esteja devidamente organizado.
-4. Inclua instruções no seu README.md explicando como abrir o projeto.
-5. Envie o link do seu repositório GitHub para avaliação.
-
----
-Boa sorte e bom trabalho! 🚀
