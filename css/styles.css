@@ -73,3 +73,74 @@ input, input {
 .error {
     color: var(--color-error);
 }
+
+@media (max-width: 1000px)
+{
+    .form_contact {
+        height: 350px;
+        width: 225px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input {
+        margin-bottom: 25px;
+    }
+
+    .button_submit {
+        height: 30px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .form_contact {
+        height: 300px;
+        width: 200px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    .tittle {
+        font-size: 25px;
+    }
+
+    input {
+        margin-bottom: 20px;
+    }
+
+    .button_submit {
+        height: 30px;
+        width: 90px;
+    }
+}
+
+@media (max-width: 320px)
+{
+    .form_contact {
+        height: 250px;
+        width: 150px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    .tittle {
+        font-size: 17px;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+
+    .button_submit {
+        height: 30px;
+        width: 90px;
+    }
+}
