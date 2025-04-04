@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2px;
+    font-family: 'Roboto', sans-serif;
+    color: #5FABEE;
+}
+
+body {
+    background-color: #070721;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form_contact {
+    height: 400px;
+    width: 300px;
+    border: 1px #000 solid;
+    border-radius: 15px;
+    background: #030314;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tittle {
+    margin-bottom: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+input {
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+    border-bottom: 2px #ccc solid;
+    height: 20px;
+    outline: none;
+}
+
+input, input {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.button_submit {
+    margin-top: 20px;
+    height: 30px;
+    width: 90px;
+    background-color: #5FABEE;
+    color: #000;
+    border: 0;
+    border-radius: 3px;
+    align-self: center;
+}
+
+.button_submit:hover {
+    background-color: #5495ce;
+    cursor: pointer;
+}
