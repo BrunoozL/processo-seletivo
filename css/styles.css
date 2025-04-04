@@ -5,11 +5,11 @@
     padding: 0;
     line-height: 1.2px;
     font-family: 'Roboto', sans-serif;
-    color: #5FABEE;
+    color: var(--color-text_and_button);
 }
 
 body {
-    background-color: #070721;
+    background-color: var(--color-background_body);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,9 +19,9 @@ body {
 .form_contact {
     height: 400px;
     width: 300px;
-    border: 1px #000 solid;
+    border: 1px var(--color-black) solid;
     border-radius: 15px;
-    background: #030314;
+    background-color: var(--color-background_form);
     text-align: center;
     padding: 50px;
     display: flex;
@@ -41,11 +41,12 @@ body {
 
 input {
     background-color: transparent;
-    color: #fff;
+    color: var(--color-white);
     border: 0;
-    border-bottom: 2px #ccc solid;
+    border-bottom: 1px #ccc solid;
     height: 20px;
     outline: none;
+    text-decoration: none;
 }
 
 input, input {
@@ -57,14 +58,18 @@ input, input {
     margin-top: 20px;
     height: 30px;
     width: 90px;
-    background-color: #5FABEE;
-    color: #000;
+    background-color: var(--color-text_and_button);
+    color: var(--color-black);
     border: 0;
     border-radius: 3px;
     align-self: center;
 }
 
 .button_submit:hover {
-    background-color: #5495ce;
+    background: var(--color-button_hover);
     cursor: pointer;
+}
+
+.error {
+    color: var(--color-error);
 }
